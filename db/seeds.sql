@@ -18,4 +18,13 @@ VALUES
   ('Kendall', 'Rivers', TRUE, 4),
   ('Mira', 'Waters', FALSE, 5);
 
+INSERT INTO locations (name, coordinates)
+VALUES
+  ('Barracuda Point', POINT(4.112742, 118.631106)),
+  ('Cape Kri', POINT(-0.556324, 130.690725)),
+  ('SS Yongala', POINT(-19.304703, 147.623977)),
+  ('Great Blue Hole', POINT(17.316007, -87.535225)),
+  ('Richelieu Rock', POINT(9.362752, 98.021727));
+
   COMMIT;
+
